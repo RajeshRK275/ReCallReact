@@ -1,6 +1,8 @@
 
 import Hello from "./Components/Hello";
 import Fruits from "./Components/Fruits";
+import Counter from "./Components/Counter";
+import Form from "./Components/Form"
 
 
 function App() {
@@ -16,8 +18,10 @@ function App() {
 
   return (
     <div className="App">
-      <Hello person = {person}/>
+      {/* <Hello person = {person}/>
       <Fruits/>
+      <Counter/> */}
+      <Form/>
     </div>
   );
 }
